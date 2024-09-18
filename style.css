@@ -136,7 +136,7 @@ i {
 }
 
 .hero-right img {
-    width: clamp(180px, 40vw, 500px);
+    width: clamp(250px, 40vw, 500px);
 }
 
 
@@ -346,11 +346,25 @@ button:hover {
 
 @media screen and (max-width: 970px) {
 
-        /* hero section */
+    /* navbar */
+
+    .menu {
+        display: none;
+    }
+
+    .menu-bar {
+        display: inline-block;
+    }
+
+
+
+    /* hero section */
 
     .hero-left,
     .hero-right {
         width: 100%;
+        padding-bottom: 0;
+        padding-top: 30px;
     }
 
     .hero-section {
@@ -362,6 +376,7 @@ button:hover {
     .hero-right {
         justify-content: center;
     }
+
 
     /* service section */
 
