@@ -1,0 +1,143 @@
+.footer-main {
+    background-color: #191a23;
+    padding: 20px 0px;
+    border-radius: 30px 30px 0 0;
+    width: 100%;
+    flex-direction: column;
+    color: white !important;
+    /* height: 300px; */
+}
+
+.footer-sec1,
+.footer-sec2, .footer-sec3 {
+    width: 100%;
+    /* background-color: pink; */
+    justify-content: space-between;
+}
+
+.footer-sec1 div {
+    /* background-color: orange; */
+    justify-content: center;
+}
+
+.footer-menu ul {
+    margin: 0;
+    /* background-color: blue; */
+}
+
+.footer-section-title {
+    font-size: 15px;
+}
+
+.footer-contact {
+    width: 100%;
+    /* flex-direction: row; */
+    align-items: start;
+    justify-content: space-between;
+}
+
+.footer-contact address p {
+    color: white;
+}
+
+.footer-contact-right input {
+    margin: 0;
+}
+
+/* .footer-contact {
+    background-color: orange;
+    width: calc(50% - 15px);
+} */
+
+.footer-contact-right {
+    align-items: center;
+    background-color: #292a32;
+    border-radius: 20px;
+    width: calc(55% - 15px);
+    padding: 60px 30px;
+}
+
+.footer-contact-right input,
+.footer-contact-right button {
+    width: calc(60% - 3px);
+}
+
+.footer-contact-right button {
+    width: calc(40% - 3px);
+    padding: 9px;
+    background-color: #b9ff66;
+    border: none;
+}
+
+.footer-contact-right span {
+    width: 100%;
+}
+
+.footer-sec3 hr {
+    border: 1px solid white ;
+    width: 100%;
+}
+
+footer a,
+footer i, .footer-sec3 p{
+    color: white !important;
+}
+
+.footer-menu ul li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.footer-social-icons i {
+    margin-left: 12px;
+}
+
+
+.footer-sec3 p {
+    text-align: center;
+    margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-social-icons {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .footer-contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-contact-left {
+        text-align: center;
+    }
+    .footer-contact-right {
+        padding: 30px;
+        width: 100%;
+    }
+    .newsletter input, .newsletter button {
+        margin: auto;
+        display: block;
+        width: 100%;
+    }
+    .newsletter input {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (max-width: 820px) {
+
+    .footer-sec1,
+    .footer-menu ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-menu ul {
+        gap: 10px;
+        padding: 0;
+    }
+}
