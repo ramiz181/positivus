@@ -331,7 +331,7 @@ button:hover {
     }
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 983px) {
 
     /* navbar */
 
@@ -342,8 +342,11 @@ button:hover {
     .menu-bar {
         display: inline-block;
     }
+}
 
-    /* hero section */
+@media screen and (max-width: 970px) {
+
+        /* hero section */
 
     .hero-left,
     .hero-right {
